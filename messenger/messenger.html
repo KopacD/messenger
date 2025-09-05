@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Messenger</title>
+  <link rel="stylesheet" href="messenger.css" />
 </head>
 <body>
-    <h1>mejsd</h1>
+
+  <div class="chat-container">
+    <div class="chat-header">Messenger</div>
+    <div class="chat-messages">
+      <div class="message received">Ahoj! Jak se máš?</div>
+      <div class="message sent">Ahoj! Mám se dobře, díky. A ty?</div>
+      <div class="message received">Taky fajn, díky za optání.</div>
+      <div class="message sent">Co děláš dneska?</div>
+      <div class="message received">Plánuji jít na trénink.</div>
+    </div>
+    <form class="chat-input">
+      <input type="text" placeholder="Napiš zprávu..." autocomplete="off" disabled />
+      <button type="submit" disabled>Odeslat</button>
+    </form>
+  </div>
+
 </body>
 </html>
