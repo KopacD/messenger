@@ -177,12 +177,7 @@ body {
   background: #0843b4;
 }
  
-.chat-input button:disabled,
-.chat-input input:disabled {
-  background: #ddd;
-  cursor: not-allowed;
-  color: #888;
-}
+
  
 @media (max-width: 480px) {
   .chat-container {
