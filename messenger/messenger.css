@@ -49,6 +49,9 @@ body {
   object-fit: cover;
   border: 2px solid white;
 }
+.chat-header .back-icon:hover {
+  color: #84a9ff;
+}
  
 
  
