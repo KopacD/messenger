@@ -58,7 +58,6 @@ body {
   position: absolute;
   left: 15px;
   font-size: 20px;
-  cursor: pointer;
   transition: color 0.3s ease;
 }
  
@@ -70,7 +69,7 @@ body {
   position: absolute;
   right: 15px;
   font-size: 20px;
-  cursor: pointer;
+
   transition: color 0.3s ease;
 }
  
@@ -131,10 +130,6 @@ body {
   border-color: #4691d9;
 }
  
-.message.sent:hover {
-  background: #72aeda;
-}
- 
  
 .message.received {
   background: white;
@@ -143,9 +138,7 @@ body {
   border-color: #ccc;
 }
  
-.message.received:hover {
-  background: #f4f4f4;
-}
+
  
 .seen-icon {
   font-size: 14px;
