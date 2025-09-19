@@ -50,9 +50,7 @@ body {
   border: 2px solid white;
 }
  
-.profile-pic:hover {
-  transform: scale(1.1);
-}
+
  
 .chat-header .back-icon {
   position: absolute;
@@ -61,9 +59,7 @@ body {
   transition: color 0.3s ease;
 }
  
-.chat-header .back-icon:hover {
-  color: #84a9ff;
-}
+
  
 .chat-header .call-icon {
   position: absolute;
@@ -73,9 +69,7 @@ body {
   transition: color 0.3s ease;
 }
  
-.chat-header .call-icon:hover {
-  color: #84a9ff;
-}
+
  
 .chat-header .chat-user {
   font-size: 20px;
