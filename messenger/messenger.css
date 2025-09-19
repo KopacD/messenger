@@ -30,7 +30,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} 
 
 .chat-header .back-icon {
   position: absolute;
@@ -98,5 +98,5 @@ body {
 .chat-input input {
   flex: 1;
   padding: 10px 15px;
-  border-radius:
-}
+  border: radius 20px;
+ }
